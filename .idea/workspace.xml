@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f9ddc83-778f-4233-9219-e9c27a65d822" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestMapOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestMapTwo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,6 +24,7 @@
   <component name="ProjectId" id="1V2ZEYlAUCU7gtprtNFQkdGssCk" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -54,7 +54,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1576453038510</updated>
-      <workItem from="1576453044357" duration="821000" />
+      <workItem from="1576453044357" duration="1080000" />
     </task>
     <servers />
   </component>

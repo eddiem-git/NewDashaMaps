@@ -39,7 +39,7 @@ public class DashMapOne implements HashMapX {
         }
     }
     @Override
-    public Integer get(String key) {
+    public String get(String key) {
         String hash = MapFunctions.hashFunctionOne(key);
         Integer hashKey = hash.charAt(0) - 'a';
         Node node = hashArray[hashKey];
