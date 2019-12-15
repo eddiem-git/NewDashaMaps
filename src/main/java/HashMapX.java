@@ -1,4 +1,4 @@
-public interface HashMap {
+public interface HashMapX {
     public void set(String key, Integer value);
     public void delete(String key);
     public Integer get(String key);

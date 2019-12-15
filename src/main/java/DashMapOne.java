@@ -1,14 +1,12 @@
-public class DashMapOne implements HashMap{
+public class DashMapOne implements HashMapX {
 
     private Node[] hashArray = new Node[26];
     private Integer size = 0;
-
 
     @Override
     public void set(String key, Integer value) {
         String hash = MapFunctions.hashFunctionOne(key);
         Integer hashKey = hash.charAt(0) - 'a';
-
         Node newNode = new Node(key, value);
         Node head = hashArray[hashKey];
         if(head == null){
@@ -40,7 +38,6 @@ public class DashMapOne implements HashMap{
             size--;
         }
     }
-
     @Override
     public Integer get(String key) {
         String hash = MapFunctions.hashFunctionOne(key);
@@ -54,7 +51,6 @@ public class DashMapOne implements HashMap{
         }
         return null;
     }
-
     @Override
     public Boolean isEmpty() {
         for (Node n : hashArray) {
@@ -64,12 +60,10 @@ public class DashMapOne implements HashMap{
         }
         return true;
     }
-
     @Override
     public Integer size() {
         return size;
     }
-
     @Override
     public Integer bucketSize(String key) {
         Integer bucket = 0;
