@@ -45,7 +45,7 @@ public class DashMapOne implements HashMapX {
         Node node = hashArray[hashKey];
         while(node != null){
             if(node.getKey().equals(key)) {
-                return node.getValue();
+                return String.valueOf(node.getValue());
             }
             node = node.getNext();
         }
